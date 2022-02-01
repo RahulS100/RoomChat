@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comparstible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dicussion</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="nav">
+            <h2 class="heading">Chat Room</h2>
+        </div>
+        <div class="container", id='main_con'>
+        </div>
+        <div class="sender">
+            <form action="#" class="send" id="send">
+                <input type="text" id="massage" placeholder="Type a Massage">
+                <button id="btn" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
